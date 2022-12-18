@@ -2,12 +2,14 @@
 import Input from "../components/forms/Input.vue";
 import Card from "../components/cards/Card.vue";
 import { mapActions } from "vuex";
+import Footer from "../components/FooterBox.vue";
 
 export default {
 	name: "HomeView",
 	components: {
 		Input,
 		Card,
+		Footer,
 	},
 	data() {
 		return {
@@ -218,6 +220,7 @@ export default {
 			</div>
 		</div>
 	</div>
+	<Footer />
 </template>
 
 <style scoped>

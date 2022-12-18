@@ -1,16 +1,11 @@
 <template>
-	<!-- <img alt="Vue logo" src="./assets/popcorn.png" /> -->
 	<router-view></router-view>
 </template>
 
 <script>
-// import HomeView from "./views/HomeView.vue";
-
 export default {
 	name: "App",
-	components: {
-		// HomeView,
-	},
+	components: {},
 };
 </script>
 

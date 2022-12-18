@@ -3,6 +3,7 @@ import { mapActions } from "vuex";
 
 export default {
 	name: "DetailsView",
+	components: {},
 	data() {
 		return {
 			movie: {},
