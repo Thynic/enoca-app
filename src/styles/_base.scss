@@ -1,0 +1,14 @@
+html,
+body {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--body-color);
+}
+
+input,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}

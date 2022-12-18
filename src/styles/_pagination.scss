@@ -1,0 +1,32 @@
+.VuePagination__pagination {
+  @apply flex flex-wrap gap-2.5;
+
+  &-item {
+    @apply flex justify-center items-center w-8 h-8 text-light-500 text-sm font-medium rounded-md bg-light transition-all cursor-pointer select-none;
+
+    &:hover,
+    &.active {
+      @apply text-white bg-primary;
+    }
+  }
+
+  &-item-prev-page,
+  &-item-next-page {
+    button {
+      @apply text-0;
+    }
+
+    &::after {
+      @apply flex justify-center items-center w-full h-full text-xl;
+      font-family: "cowealthy" !important;
+    }
+  }
+
+  &-item-prev-page::after {
+    content: "\e900";
+  }
+
+  &-item-next-page::after {
+    content: "\e901";
+  }
+}
